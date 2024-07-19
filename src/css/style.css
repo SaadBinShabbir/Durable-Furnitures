@@ -1,0 +1,1321 @@
+/************************************ Global CSS Start ************************************/
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap");
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  outline: none;
+}
+
+:root {
+  --primary-color: #1f1f1f;
+  --secondary-color: #e1d0a7;
+  --white: #fff;
+  --dark: #000;
+
+  /* Font Family */
+  --primary-font: "Barlow Condensed", sans-serif;
+  --secondary-font: "Roboto", sans-serif;
+}
+body,
+html {
+  color: var(--primary-color);
+  font-size: 10px;
+  font-weight: 400;
+  font-family: var(--primary-font);
+  scroll-behavior: smooth;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 9rem;
+  line-height: 1.4;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+h2 {
+  color: var(--primary-color);
+  font-size: 4.7rem;
+  font-weight: 600;
+  display: inline-block;
+  text-transform: capitalize;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+h3 {
+  color: var(--white);
+  font-size: 3.3rem;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+h4 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 1;
+  color: var(--primary-color);
+}
+
+h5 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1;
+  color: var(--primary-color);
+  letter-spacing: 2px;
+}
+
+p {
+  font-size: 1.6rem !important;
+  line-height: 1.6;
+  margin-top: 1rem;
+  color: var(--primary-color);
+  font-family: var(--secondary-font);
+}
+
+embed,
+iframe,
+img,
+object {
+  max-width: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a,
+a:active,
+a:focus,
+a:hover,
+button {
+  text-decoration: none;
+  outline: 0;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--white);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--secondary-color);
+  border-radius: 5px;
+}
+
+::selection {
+  color: var(--white);
+  background-color: var(--secondary-color);
+}
+section {
+  padding: 5rem 0;
+}
+
+/* Button CSS Start */
+.btn-view {
+  width: 130px;
+  height: 40px;
+  border-radius: 5px;
+  background: var(--secondary-color);
+  color: var(--primary-color);
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  outline: none;
+  box-shadow: none;
+  border: none;
+  transition: 0.3s all ease-in-out;
+}
+
+.btn-view i {
+  padding-left: 5px;
+}
+
+.btn-view:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  border-radius: 4px;
+}
+
+.main-btn {
+  border: none;
+  border-radius: 5px;
+  padding: 5px 30px;
+  background-color: var(--primary-color);
+  color: var(--white);
+  margin-top: 14px;
+  cursor: pointer;
+  font-size: 2rem;
+  transition: 0.3s linear;
+  border: 2px solid transparent;
+}
+.main-btn:hover {
+  background-color: var(--white);
+  color: var(--primary-color);
+  border: 2px solid var(--primary-color);
+}
+
+.main-btn2 {
+  width: 130px;
+  height: 40px;
+  border-radius: 5px;
+  background: none;
+  color: var(--white);
+  font-size: 1.6rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+  outline: none;
+  box-shadow: none;
+  border: 3px solid var(--white);
+  transition: 0.3s all ease-in-out;
+}
+
+.main-btn2:hover {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  color: var(--white);
+}
+
+.btn-signup {
+  border-radius: 4px;
+  background: var(--primary-color);
+  color: var(--white);
+  width: 85px;
+  height: 30px;
+  border: 0;
+  font-family: var(--secondary-font);
+}
+
+/* Button CSS End */
+.background-white {
+  background-color: var(--white) !important;
+}
+
+.text-color {
+  color: var(--dark) !important;
+}
+
+.btn-viewall {
+  background-color: var(--white);
+  border: 1px solid var(--primary-color);
+  transition: 0.3s all ease-in-out;
+}
+
+/* Whatsapp Button CSS Start */
+
+.whatsapp-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #25d366;
+  color: white;
+  border-radius: 50%;
+  padding: 4px 16px 6px 16px;
+  font-size: 36px;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Whatsapp Button CSS End */
+
+/* Title CSS Start */
+
+.section-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.section-title h2 {
+  position: relative;
+  padding-bottom: 10px;
+  color: var(--primary-color);
+}
+
+.section-title h2::before {
+  content: "";
+  position: absolute;
+  bottom: -10px; /* Adjust the distance from the bottom of the text */
+  left: 50%;
+  width: 60%;
+  height: 2px;
+  background-color: var(--primary-color);
+  transform: translateX(-50%);
+  z-index: 1;
+}
+
+.section-title h2::after {
+  content: "";
+  background-image: url(../../img/Logo/logo-favicon.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  left: 50%;
+  top: 96%;
+  width: 30px;
+  height: 25px;
+  background-color: var(--white);
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.section-title p {
+  padding-top: 5px;
+  font-family: var(--primary-font);
+  font-size: 2.5rem;
+  font-style: italic;
+}
+
+.bg-sec .section-title h2::after {
+  background-color: var(--secondary-color) !important;
+}
+/* Title CSS End */
+
+/************************************ Global CSS End ************************************/
+
+/************************************ Section Header CSS Start ************************************/
+
+header {
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-shadow {
+  margin: 1rem 0;
+  background-color: var(--primary-color);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* NavBar Hover and Active CSS Start */
+
+.navbar-nav a.nav-link {
+  color: var(--primary-color);
+  font-family: var(--secondary-font);
+  font-size: 1.2rem;
+  position: relative;
+}
+
+.nav-link:hover,
+.nav-link:active {
+  color: var(--primary-color) !important;
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 2px;
+  background-color: var(--primary-color);
+  visibility: hidden;
+  transition: 0.4s ease-in-out;
+}
+
+.nav-link:hover::before,
+.nav-link.active::before {
+  width: 100%;
+  visibility: visible;
+  color: var(--primary-color);
+}
+
+/* NavBar Hover and Active CSS End */
+
+/* Mega Menu CSS Start */
+
+.dropdown-menu {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border: none;
+  border-radius: 0;
+  padding: 0.7em;
+}
+
+.dropdown-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dropdown-menu li .dropdown-item {
+  color: gray;
+  font-size: 1rem;
+  font-family: var(--secondary-font);
+  padding: 0.5em 1em;
+}
+
+.dropdown-menu li .dropdown-item:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown-menu li:first-child a {
+  font-weight: bold;
+  font-size: 1.2em;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+.dropdown-menu li:first-child a:hover {
+  background-color: #f1f1f1;
+}
+
+@media only screen and (min-width: 992px) {
+  .dropdown:hover .dropdown-menu {
+    display: flex;
+  }
+  .dropdown-menu.show {
+    display: flex;
+  }
+  .mega-menu {
+    transform: translate3d(-140px, 4px, 0);
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .dropdown-menu.show {
+    flex-wrap: wrap;
+    max-height: 350px;
+    overflow-y: scroll;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1140px) {
+  .dropdown:hover .dropdown-menu {
+    width: 40vw;
+    flex-wrap: wrap;
+  }
+}
+
+/* Mega Menu CSS End */
+
+/* Search Bar CSS Start */
+
+.InputContainer {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eceae7;
+  border-radius: 4px;
+  overflow: hidden;
+  cursor: pointer;
+  padding-left: 15px;
+}
+
+.input {
+  width: 170px;
+  height: 100%;
+  border: none;
+  background-color: #eceae7;
+  outline: none;
+  font-size: 0.9em;
+  caret-color: var(--primary-color);
+}
+
+.input::placeholder {
+  font-size: 1.3rem;
+  letter-spacing: 1.5px;
+}
+
+.labelforsearch {
+  cursor: text;
+  padding: 0px 12px;
+}
+
+.searchIcon {
+  width: 13px;
+}
+
+.border {
+  height: 40%;
+  width: 1.3px;
+  background-color: rgb(223, 223, 223);
+}
+
+.searchIcon {
+  fill: var(--primary-color);
+}
+
+/* Search Bar CSS End */
+
+/************************************ Section Header CSS End ************************************/
+
+/************************************ HomePage CSS Start ************************************/
+
+/* Hero Section CSS Start */
+
+.home-hero {
+  background-color: var(--secondary-color);
+  background-image: url(../../img/banners/couch.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 640px auto;
+  margin-bottom: 10rem;
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .home-hero {
+    background-size: 440px auto;
+  }
+}
+
+/* Mobile */
+@media (max-width: 425px) {
+  .home-hero {
+    /* background-size: 320px auto;
+    background-position: center center; */
+    background-image: none;
+  }
+}
+
+.btn-shop-now {
+  background-color: #f9bf29;
+  color: var(--white);
+  border: 2px solid #f9bf29;
+  outline: none;
+  text-align: center;
+  transition: 0.3s all ease-in-out;
+  border-radius: 50px;
+  padding: 10px 28px;
+  font-weight: 500;
+  font-size: 1.8rem;
+}
+
+.btn-shop-now:hover {
+  border-color: var(--white);
+  background-color: transparent;
+}
+
+.btn-explore {
+  background-color: transparent;
+  color: var(--white);
+  border-color: var(--white) !important;
+}
+
+.btn-explore:hover {
+  background-color: var(--white);
+  color: var(--primary-color);
+  border-color: var(--white) !important;
+}
+
+/* Hero Section CSS Start */
+
+/* Contact Section CSS Start */
+
+.bg-contact {
+  background-color: var(--white);
+}
+
+.form-heading2 {
+  position: relative;
+}
+
+.form-heading2::after {
+  content: "";
+  position: absolute;
+  width: 60;
+  height: 2px;
+  display: block;
+  background-color: var(--secondary-color);
+  bottom: (50% - 30%);
+}
+
+.icons {
+  border: none;
+  padding: 12px 14px;
+  font-size: 18px;
+  border-radius: 50%;
+  background-color: antiquewhite;
+  color: var(--primary-color);
+}
+
+.icons:hover {
+  background-color: var(--primary-color);
+  color: white;
+  transition: 0.4s ease-in;
+}
+
+.actua1container {
+  box-shadow: rgba(100, 100, 111, 0-2);
+  box-sizing: border-box;
+  border-top: 3px solid var(--secondary-color);
+  border-bottom: 3px solid var(--secondary-color);
+  height: 520px;
+}
+
+.subtext {
+  font-size: 14px;
+  color: gray;
+}
+
+.l-s-1 {
+  letter-spacing: 1px;
+}
+
+/* Contact Section CSS End */
+
+/* Feature Section CSS Start */
+
+.feature-container {
+  padding: 50px 50px;
+}
+
+.fe-box {
+  text-align: center;
+  padding: 25px 15px;
+  box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+  border: 1px solid #cce7d0;
+  border-radius: 6px;
+  margin: 15px 0;
+}
+
+.fe-box:hover {
+  box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+
+.fe-box img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.fe-box h5 {
+  display: inline-block;
+  padding: 9px 8px 6px 8px;
+  line-height: 1;
+  border-radius: 4px;
+  color: #088178;
+  font-size: 1.45rem !important;
+}
+.fe-box-1 h5 {
+  background-color: #fddde4;
+}
+
+.fe-box-2 h5 {
+  background-color: #cdebbc;
+}
+
+.fe-box-3 h5 {
+  background-color: #d1e8f2;
+}
+
+.fe-box-4 h5 {
+  background-color: #cdd4f8;
+}
+
+.fe-box-5 h5 {
+  background-color: #f6dbf6;
+}
+
+.fe-box-6 h5 {
+  background-color: #fff2e5;
+}
+
+/* Feature Section CSS End */
+
+/* Banner Section CSS Start */
+
+.banner {
+  width: 100%;
+  height: 60vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../../img/banners/b1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.banner-content h5 {
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+
+.banner-content h3 {
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.banner-content p {
+  letter-spacing: 2px;
+  font-weight: 500;
+}
+
+.banner-content button {
+  background: transparent;
+  border: 2px solid white;
+}
+
+.banner-content button:hover {
+  background: var(--secondary-color) !important;
+  border: 2px solid var(--secondary-color);
+}
+
+/* Banner Section CSS End */
+
+/* Banner Category CSS Start */
+
+.category-banner {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 75%;
+}
+
+.category-banner img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease-in-out, filter 0.6s ease-in-out;
+  transform: scale(1);
+  filter: brightness(70%);
+  cursor: pointer;
+}
+
+.category-banner:hover img {
+  transform: scale(1.1);
+}
+
+.category-banner .category-banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.5rem;
+  text-align: center;
+  transition: opacity 0.3s ease;
+  opacity: 1;
+}
+
+.category-banner:hover .category-banner-text {
+  opacity: 1;
+}
+
+.category-banner-r1 .category-banner {
+  padding-bottom: 70vh !important;
+}
+
+.category-banner-r2 .category-banner {
+  padding-bottom: 60vh;
+}
+
+/* Banner Category CSS End */
+
+/* Testinomials Category CSS Start */
+
+.bg-sec {
+  background: var(--secondary-color);
+}
+
+.testinomials-crousel {
+  padding-bottom: 80px;
+}
+
+/* Testinomials Category CSS End */
+
+/************************************ HomePage CSS End ************************************/
+
+/************************************ Section Product CSS Start ************************************/
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-card-image {
+  height: 160px;
+  width: 100%;
+  border-radius: 6px;
+}
+
+.product-card-name {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29.05px;
+  text-align: left;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.product-card-price {
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.product-card-des {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 1.3rem;
+}
+
+.product-star-rating {
+  font-size: 1.4rem;
+}
+
+.product-star-rating .fa-star {
+  color: gold;
+}
+
+.product-star-rating .fa-star-half-alt {
+  color: gold;
+}
+
+/************************************ Section Product CSS End ************************************/
+
+/************************************ Single Product Page CSS Start ************************************/
+
+.right-box {
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+  overflow: hidden;
+  z-index: 5;
+}
+
+.main-img-box {
+  padding: 20px 15px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-img {
+  height: 320px;
+  width: auto;
+  border-radius: 10px;
+}
+
+.pro-small-images {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 30px 15px 30px;
+}
+
+.pro-small-images .swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pro-small-images .swiper-slide img {
+  width: 100%;
+  height: 98%;
+  cursor: pointer;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+}
+
+.pro-small-images .swiper-button-next:after,
+.pro-small-images .swiper-button-prev:after {
+  font-family: swiper-icons;
+  font-size: 10px !important;
+  font-weight: 800;
+  background-color: var(--primary-color);
+  padding: 8px 10px;
+  color: var(--white);
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.pro-des {
+  display: -webkit-box !important;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.inputs {
+  width: 100%;
+  justify-content: space-between;
+  font-size: 2rem;
+}
+
+.h-30 {
+  height: 30px;
+  width: 175px;
+}
+
+.des-title {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  position: relative;
+  padding-bottom: 1rem;
+}
+
+.des-title::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--primary-color);
+  z-index: -1;
+}
+
+.six-product-container {
+  padding: 50px 0;
+}
+
+/* Swipper */
+.swiper-button-next {
+  color: var(--primary-color);
+}
+
+.swiper-button-prev {
+  color: var(--primary-color);
+}
+
+.swiper-pagination-bullet {
+  background: var(--primary-color);
+}
+/************************************ Single Product Page CSS End ************************************/
+
+/************************************ ShopPage CSS Start ************************************/
+.shop-banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../../img/banners/shop.jpg) !important;
+}
+
+.proo {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.proo-items {
+  flex-basis: 31%;
+  margin-bottom: 60px;
+}
+
+@media (max-width: 445px) {
+  .proo-items {
+    flex-basis: 46%;
+    margin-bottom: 60px;
+  }
+}
+
+/************************************ ShopPage CSS End ************************************/
+
+/************************************ CategoryPage CSS Start ************************************/
+
+.category-pg-banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../../img/banners/category.jpg) !important;
+}
+
+/************************************ CategoryPage CSS Start ************************************/
+
+/************************************ BrandsPage CSS Start ************************************/
+
+.brands-pg-banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../../img/banners/brands.jpg) !important;
+}
+
+/************************************ BrandsPage CSS Start ************************************/
+
+/************************************ AboutPage CSS Start ************************************/
+
+.aboutbanner {
+  height: 220px;
+  width: 100%;
+}
+.aboutbanner img {
+  height: 200px;
+  width: 100%;
+}
+
+/* Media Query 450px */
+@media (max-width: 450px) {
+  .aboutbanner {
+    height: 105px;
+    width: 100%;
+  }
+
+  .aboutbanner img {
+    height: 100px;
+    width: 100%;
+  }
+}
+
+.about-us-section .img-head {
+  position: relative;
+  overflow: hidden;
+}
+
+.about-us-section .img-head img {
+  width: 100%;
+  transition: transform 0.6s ease-in-out;
+}
+
+.about-us-section .img-head:hover img {
+  transform: scale(1.2);
+}
+
+.about-us-section .img-head::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    to right bottom,
+    var(--secondary-color),
+    var(--primary-color)
+  );
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0.5;
+}
+
+.about-us-section .ab-text-head {
+  font-size: 2.8rem;
+  color: var(--primary-color);
+}
+
+.about-us-section .break-small {
+  width: 80px;
+  height: 3px;
+  background-color: var(--primary-color);
+}
+
+.about-us-section .ab-text-para {
+  color: #444;
+}
+
+.about-us-section .ab-box {
+  background-color: var(--primary-color);
+  color: var(--white);
+  text-align: center;
+  padding: 20px 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-us-section .ab-box h4,
+.about-us-section .ab-box p {
+  color: var(--white);
+}
+
+.about-us-section .ab-box i {
+  font-size: 42px;
+}
+
+.about-us-section .ab-box h4 {
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+
+.about-us-section .ab-box p {
+  font-size: 2.2rem;
+}
+
+.about-us-section .ab-box::after,
+.about-us-section .ab-box::before {
+  content: "";
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: rgba(255, 255, 255, 0.733);
+  border-radius: 50%;
+  transition: transform 0.3s;
+}
+
+.about-us-section .ab-box::after {
+  left: -50px;
+  top: -50px;
+}
+
+.about-us-section .ab-box::before {
+  right: -50px;
+  bottom: -50px;
+}
+
+.about-us-section .ab-box:hover:after,
+.about-us-section .ab-box:hover:before {
+  transform: scale(1.2);
+}
+
+/************************************ AboutPage CSS End ************************************/
+
+/************************************ ComparePage CSS Start ************************************/
+
+.compare-banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../img/banners/compare.jpg) !important;
+}
+
+.comparetable td img {
+  width: 100%;
+  height: 250px;
+  object-fit: contain;
+}
+
+/************************************ ComparePage CSS End ************************************/
+
+/************************************ ContactPage CSS Start ************************************/
+
+.contact-banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../../img/banners/contact.jpg);
+  width: 100%;
+  height: 300px;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+
+.contact-banner h1,
+.contact-banner h4 {
+  color: var(--white) !important;
+}
+
+.first_col {
+  background-color: white;
+  height: 550px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: relative;
+  width: 550px;
+  left: 155px;
+  top: 171px;
+  border-radius: 20px;
+}
+
+.sec_col .img-fluid {
+  border-radius: 20px;
+}
+
+.row-last {
+  width: 60% !important;
+  position: relative !important;
+  left: 350px;
+  top: 50px;
+  height: 250px;
+  padding-bottom: 100px !important;
+  background-color: var(--secondary-color);
+  border-radius: 20px;
+}
+
+.row-last .row .col i {
+  font-size: 3rem;
+  color: var(--primary-color);
+}
+
+.form-control {
+  height: 35px;
+  background: var(--white);
+  font-size: 1.4rem;
+  font-family: var(--secondary-font);
+  border-radius: 2px;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+  border: 1.5px solid var(--secondary-color);
+  resize: none;
+}
+
+.form-control-message {
+  height: 100px;
+}
+
+.form-control[type="text"]:focus {
+  border: 2px solid var(--primary-color);
+}
+
+.form-label {
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+@media only screen and (max-width: 911px) {
+  .row-last {
+    left: 0 !important;
+    width: 100% !important;
+    top: 0 !important;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .first_col {
+    position: initial;
+    left: 0 !important;
+  }
+
+  .sec_col {
+    order: 1 !important;
+  }
+  .row-last {
+    height: 400px;
+  }
+}
+/************************************ ContactPage CSS End ************************************/
+
+/************************************ Section Footer CSS Start ************************************/
+
+.ft {
+  background-color: var(--dark);
+  margin-top: 11rem;
+}
+
+.ft h5 {
+  color: var(--white);
+  font-size: 2.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.ft ul li {
+  margin-bottom: 0.5rem;
+  list-style: none;
+}
+
+.ft .company_details {
+  font-size: 1.4rem;
+}
+
+.ft .contact-info li a {
+  color: var(--white);
+  font-size: 1.6rem;
+}
+
+.ft .link-widget li a,
+.ft p {
+  color: var(--white);
+  font-size: 1.6rem;
+  padding-left: 1.5rem;
+  position: relative;
+  -webkit-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+.ft .link-widget li a::before {
+  content: "\f105";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  left: 0.3rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.ft .link-widget li a:hover {
+  margin-left: 0.625rem;
+  color: var(--secondary-color);
+}
+
+.ft .social-network a {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin: 0.5rem;
+  line-height: 3.2rem;
+  font-size: 1.5rem;
+  display: inline-block;
+  border: 0.125rem solid var(--white);
+  color: var(--white);
+  text-align: center;
+  border-radius: 100%;
+  -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.ft .social-network a:hover {
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
+  color: var(--white);
+  box-shadow: 0 0.625rem 0.9375rem 0 rgb(0 0 0 / 10%);
+  transform: translateY(-0.1875rem);
+}
+
+.ft .form-control {
+  font-size: 2rem;
+  color: var(--white);
+}
+
+.ft-news {
+  padding-bottom: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 50px;
+}
+
+.ft-news > .far {
+  font-size: 1.8rem;
+  margin-right: 10px;
+  color: var(--white);
+}
+
+.ft-news > input {
+  width: 100%;
+  background: transparent;
+  font-size: 1.6rem;
+  color: var(--white);
+  border: 0;
+  outline: none;
+}
+.ft-news > input::placeholder {
+  font-size: 1.6rem;
+}
+.ft-news > button {
+  background: transparent;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.ft-news > button > .fas {
+  font-size: 16px;
+  color: var(--white);
+}
+
+.ft hr {
+  color: var(--white);
+  background-color: var(--white);
+}
+.ft .copyright-section p {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+/* Pointer */
+
+h5 > span {
+  cursor: pointer;
+}
+
+/************************************ Section Footer CSS End ************************************/
