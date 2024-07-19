@@ -1,0 +1,1503 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About</title>
+
+    <link
+      rel="shortcut icon"
+      href="img/Logo/logo-favicon.svg"
+      type="image/x-icon"
+    />
+
+    <!-- SwiperJS CSS  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <!----- Font Awesome Cdn ----->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    <!----- Bootstrap CSS ----->
+    <link rel="stylesheet" href="src/bootstrap/css/bootstrap.min.css" />
+
+    <!----- Light Box CSS ----->
+    <link rel="stylesheet" href="src/css/lightbox.css" />
+
+    <!----- Custom CSS ----->
+    <link rel="stylesheet" href="src/css/style.css" />
+  </head>
+  <body>
+    <!-- Whatsapp Button Start -->
+
+    <a href="https://wa.me/+923243416388" class="whatsapp-icon" target="_blank">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Whatsapp Button End -->
+
+    <!------------ Start Header ------------>
+
+    <header class="container-fluid background-white sticky-top">
+      <nav class="navbar navbar-expand-lg background-white p-0">
+        <div class="container pt-2 pb-2">
+          <!-- Logo -->
+          <a class="navbar-brand" href="index.html"
+            ><img src="img/Logo/logo.svg" height="50" alt=""
+          /></a>
+
+          <div class="justify-content-end d-flex">
+            <div class="d-flex d-lg-none align-items-center">
+              <!-- Wishlist Icon -->
+              <div class="icon-wrapper mx-1">
+                <a href="#" class="icon-link">
+                  <i class="text-color fas fa-heart"></i>
+                </a>
+              </div>
+              <!-- Add To Cart Icon -->
+              <div class="icon-wrapper mx-1">
+                <a href="#" class="icon-link">
+                  <i class="text-color fas fa-shopping-cart"></i>
+                </a>
+              </div>
+            </div>
+            <!-- NavBar Toggle Btn -->
+            <button
+              class="navbar-toggler shadow-none border-0"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasNavbar"
+              aria-controls="offcanvasNavbar"
+              aria-label="Toggle navigation"
+            >
+              <span class="text-dark fa-1x fa-solid fa-bars pt-1"></span>
+            </button>
+          </div>
+          <!-- SideBar -->
+          <div
+            class="sidebar offcanvas offcanvas-start"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <!-- SideBar Header -->
+            <div class="offcanvas-header border-bottom background-white">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                <a class="navbar-brand" href="index.html"
+                  ><img src="img/Logo/logo.svg" width="" height="70" alt=""
+                /></a>
+              </h5>
+              <button
+                type="button"
+                class="btn-close shadow-none border-0 fa-solid fa-xmark"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <!-- SideBar Body -->
+            <div
+              class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0 background-white align-items-center"
+            >
+              <div
+                class="row justify-content-center align-items-center w-100 pt-lg-2"
+              >
+                <div class="row col-lg-8">
+                  <form class="InputContainer w-100">
+                    <input
+                      type="text"
+                      name="text"
+                      class="input w-100"
+                      id="input"
+                      placeholder="Search Product"
+                    />
+
+                    <label for="input" class="labelforsearch">
+                      <i class="searchIcon fa-solid fa-magnifying-glass"></i>
+                    </label>
+                  </form>
+                </div>
+                <div class="row pt-lg-3">
+                  <ul
+                    class="navbar-nav justify-content-center align-items-start align-items-lg-center fs-5 flex-grow-1 px-3"
+                  >
+                    <li class="nav-item mx-2">
+                      <a class="nav-link" aria-current="page" href="index.html"
+                        >Home</a
+                      >
+                    </li>
+
+                    <li class="nav-item mx-2">
+                      <a
+                        class="nav-link active"
+                        aria-current="page"
+                        href="about.html"
+                        >About Us</a
+                      >
+                    </li>
+
+                    <li class="nav-item mx-2">
+                      <a class="nav-link" href="shop.html">Shop</a>
+                    </li>
+
+                    <li class="nav-item dropdown mx-2">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                        aria-haspopup="true"
+                      >
+                        Furniture
+                      </a>
+                      <div
+                        class="dropdown-menu mega-menu"
+                        aria-labelledby="navbarDropdown"
+                      >
+                        <ul>
+                          <li>
+                            <a class="dropdown-item" href="#">Living Room</a>
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=Sofas"
+                              >Sofas</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=LoveSeats"
+                              >Love Seats</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=Sectional"
+                              >Sectional</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=Chair&Chaises"
+                              >Chair & Chaises</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=SofaBeds&Futons"
+                              >Sofa, Beds & Futons
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=Recliners"
+                              >Recliners</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=EntertainmentCentres"
+                              >Entertainment Centres</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=TVStands"
+                              >TV Stands</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=CoffeTables"
+                              >Coffe Tables</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=category.html?category=End&SideTables"
+                              >End & Side Tables
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=Sofa&ConsoleTables"
+                              >Sofa & Console Tables</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=LivingRoomSets"
+                              >Living Room Sets
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=TableSets"
+                              >Table Sets</a
+                            >
+                          </li>
+                        </ul>
+
+                        <ul>
+                          <li>
+                            <a class="dropdown-item" href="#">Dining Room</a>
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=DiningRoomSets"
+                              >Dining Room Sets
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=Recliners"
+                              >Recliners</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=Dining&KitchenTables"
+                              >Dining & Kitchen Tables</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=DiningChairs"
+                              >Dining Chairs</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=Counter&BarStools"
+                              >Counter & Bar Stools</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=DiningBenches"
+                              >Dining Benches
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=Buffets&SideBoards"
+                              >Buffets & SideBoards
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=ChinaCabinets&Curios"
+                              >China Cabinets & Curios
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=Bars&Carts"
+                              >Bars & Carts</a
+                            >
+                          </li>
+                        </ul>
+
+                        <ul>
+                          <li>
+                            <a class="dropdown-item" href="#"
+                              >Accent Furniture
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=AccentTables"
+                              >Accent Tables</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=AccentChairs"
+                              >Accent Chairs</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=Fireplaces&Screens"
+                              >Fireplaces & Screens
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=Benches&Ottomans"
+                              >Benches & Ottomans</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=Hallway&EntranceFurniture"
+                              >Hallway & Entrance Furniture</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=Shelves&StorageCabinets"
+                              >Shelves & Storage Cabinets</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=BathroomFurniture"
+                              >Bathroom Furniture
+                            </a>
+                          </li>
+                        </ul>
+
+                        <ul>
+                          <li>
+                            <a class="dropdown-item" href="#">Home Office</a>
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=Desks&Hutches"
+                              >Desks & Hutches
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=Office&GamingChairs"
+                              >Office & Gaming Chairs</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=FilingCabinets"
+                              >Filing Cabinets</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=BookCases"
+                              >Book Cases</a
+                            >
+                          </li>
+                        </ul>
+
+                        <ul>
+                          <li>
+                            <a class="dropdown-item" href="#">Kids Teens</a>
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=BunkBeds&LoftBeds"
+                              >Bunk Beds & Loft Beds</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=BabyFurniture"
+                              >Baby Furniture
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=MegaMenuLink"
+                              >Mega Menu Link</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=TwinsBeds"
+                              >Twins Beds</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=Kids&TeensFullBeds"
+                              >Kids & Teens Full Beds</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=TwinsBeds"
+                              >Twins Beds</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=Chests&Dressers"
+                              >Chests & Dressers</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=Nightstands"
+                              >Nightstands</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=Shelving&StorageDrawers"
+                              >Shelving & Storage Drawers</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=Kids&TeenRoomPackages"
+                              >Kids & Teen Room Packages</a
+                            >
+                          </li>
+                        </ul>
+
+                        <ul>
+                          <li>
+                            <a class="dropdown-item" href="#"
+                              >Bedding & Decor
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=Bedding"
+                              >Bedding</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=AreaRugs"
+                              >Area Rugs</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=Decor&AccentCushions"
+                              >Decor & Accent Cushions</a
+                            >
+                          </li>
+
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=WallArt&Clocks"
+                              >Wall Art & Clocks
+                            </a>
+                          </li>
+
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=Pillows&Shams"
+                              >Pillows & Shams
+                            </a>
+                          </li>
+
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=Lighting"
+                              >Lighting</a
+                            >
+                          </li>
+
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=Fans"
+                              >Fans</a
+                            >
+                          </li>
+
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=HolidayDecor"
+                              >Holiday Decor</a
+                            >
+                          </li>
+                        </ul>
+
+                        <ul>
+                          <li>
+                            <a class="dropdown-item" href="#">Shop By Brand</a>
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="brands.html?brand=Interwood"
+                              >Interwood</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="brands.html?brand=ObsessionOutlet"
+                              >Obsession Outlet
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="brands.html?brand=Habitt"
+                              >Habitt</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="brands.html?brand=DolceVitaHome"
+                              >Dolce Vita Home
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="brands.html?brand=IndexFurniture"
+                              >Index Furniture
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="brands.html?brand=UrbanGalleria"
+                              >Urban Galleria
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="brands.html?brand=HomeFactree"
+                              >Home Factree</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="brands.html?brand=MalikFurniture"
+                              >Malik Furniture
+                            </a>
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li class="nav-item dropdown mx-2">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                        aria-haspopup="true"
+                      >
+                        Mattresses
+                      </a>
+                      <div
+                        class="dropdown-menu mega-menu"
+                        aria-labelledby="navbarDropdown"
+                      >
+                        <ul>
+                          <li>
+                            <a class="dropdown-item" href="#"
+                              >Mattresses Sets
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=KingSets"
+                              >King Sets</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=QueenSets"
+                              >Queen Sets</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=FullSets"
+                              >Full Sets</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=TwinSets"
+                              >Twin Sets</a
+                            >
+                          </li>
+                        </ul>
+
+                        <ul>
+                          <li>
+                            <a class="dropdown-item" href="#"
+                              >Mattresses Only
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=KingSize"
+                              >King Size</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=QueenSize"
+                              >Queen Size</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=FullSize"
+                              >Full Size</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=TwinSize"
+                              >Twin Size</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=CribSize"
+                              >Crib Size</a
+                            >
+                          </li>
+                        </ul>
+
+                        <ul>
+                          <li>
+                            <a class="dropdown-item" href="#">Accessories</a>
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=BedFrames"
+                              >Bed Frames</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=Boxsprings&Bases"
+                              >Boxsprings & Bases</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=AdjustableBases"
+                              >Adjustable Bases
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=Benches&Ottomans"
+                              >Benches & Ottomans</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=MattressesProtectors"
+                              >Mattresses Protectors</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=Shelves&StorageCabinets"
+                              >Shelves & Storage Cabinets</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=Pillows"
+                              >Pillows
+                            </a>
+                          </li>
+                        </ul>
+
+                        <ul>
+                          <li>
+                            <a class="dropdown-item" href="#">Shop By Brand</a>
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="brands.html?brand=DuraFoam"
+                              >DuraFoam</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="brands.html?brand=Master"
+                              >Master</a
+                            >
+                          </li>
+
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="brands.html?brand=YatasBedding"
+                              >Yatas Bedding</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="brands.html?brand=AlkhairFoam"
+                              >Alkhair Foam</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="brands.html?brand=DiamondSupremeFoam"
+                              >Diamond SupremeFoam</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li class="nav-item dropdown mx-2">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="#"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                        aria-haspopup="true"
+                      >
+                        Outdoor
+                      </a>
+                      <div
+                        class="dropdown-menu mega-menu"
+                        aria-labelledby="navbarDropdown"
+                      >
+                        <ul>
+                          <li>
+                            <a class="dropdown-item" href="#">Shop By Type</a>
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=OutdoorFurniture"
+                              >Outdoor Furniture
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=OutdoorDecor"
+                              >Outdoor Decor</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=FireTables&PatioHeaters"
+                              >Fire Tables & Patio Heaters
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=BBQs&Coolers"
+                              >BBQs & Coolers
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=Kayaks&Inflatables"
+                              >Kayaks & Inflatables
+                            </a>
+                          </li>
+                        </ul>
+
+                        <ul>
+                          <li>
+                            <a class="dropdown-item" href="#"
+                              >Shop By Collection
+                            </a>
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=PolyLumber"
+                              >Poly Lumber</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=NardiOutdoor"
+                              >Nardi Outdoor</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=TeakWood"
+                              >Teak Wood</a
+                            >
+                          </li>
+                          <li>
+                            <a
+                              class="dropdown-item"
+                              href="category.html?category=ArtisanIndoor-Outdoor"
+                              >Artisan Indoor - Outdoor</a
+                            >
+                          </li>
+                        </ul>
+                      </div>
+                    </li>
+
+                    <li class="nav-item mx-2">
+                      <a class="nav-link" href="compare.html">Compare</a>
+                    </li>
+
+                    <li class="nav-item mx-2">
+                      <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="d-lg-flex d-none d-sm-none align-items-center px-4">
+                <!-- Wishlist Icon -->
+                <div class="icon-wrapper mx-2">
+                  <a href="#" class="icon-link">
+                    <i class="text-color fas fa-heart"></i>
+                  </a>
+                </div>
+                <!-- Add To Cart Icon -->
+                <div class="icon-wrapper mx-2">
+                  <a href="#" class="icon-link">
+                    <i class="text-color fas fa-shopping-cart"></i>
+                  </a>
+                </div>
+              </div>
+              <!-- Signup Button -->
+              <button
+                class="btn-signup d-none d-lg-flex align-items-center justify-content-center"
+              >
+                Sign Up
+              </button>
+              <button class="btn-signup mt-auto d-lg-none">Sign Up</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!------------ End Header ------------>
+
+    <!------------ Start Banner Section ------------>
+
+    <section class="container-fluid pt-0 px-0">
+      <div class="aboutbanner">
+        <img src="img/banners/about.png" class="img-fluids" alt="..." />
+      </div>
+    </section>
+
+    <!------------ End Banner Section ------------>
+
+    <!------------ Start About Section ------------>
+
+    <section class="container-fluid">
+      <section class="container">
+        <div class="about-us-section">
+          <div class="row align-items-center">
+            <div class="col-12 col-lg-6 mb-4 mb-lg-0">
+              <div class="img-head">
+                <img src="img/banners/accent-furniture.jpg" alt="" />
+              </div>
+            </div>
+            <div class="col-12 col-lg-6">
+              <h2 class="ab-text-head">KNOW MORE ABOUT US</h2>
+              <div class="break-small mb-2"></div>
+              <p class="ab-text-para mb-4">
+                At Durable Furnitures, we pride ourselves on crafting pieces
+                that stand the test of time. Our skilled artisans use only the
+                finest materials to ensure each item is built to last. We
+                believe in combining functionality with timeless design to
+                elevate your living spaces. Our commitment to quality and
+                durability ensures that you receive exceptional value with every
+                purchase. Discover the perfect blend of style, comfort, and
+                longevity with Durable Furnitures.
+              </p>
+              <div class="row">
+                <div class="col-12 col-md-4 mb-2 mb-md-0">
+                  <div class="box ab-box">
+                    <i class="fa fa-wrench mb-3"></i>
+                    <h4 class="mb-0">Project Complete</h4>
+                    <p>
+                      <span class="digit-box mb-0" data-value="400">400</span>+
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col-12 col-md-4 mb-2 mb-md-0">
+                  <div class="box ab-box">
+                    <i class="fa fa-users mb-3"></i>
+                    <h4 class="mb-0">Satisfied Clients</h4>
+                    <p>
+                      <span class="digit-box mb-0" data-value="600">600</span>+
+                    </p>
+                  </div>
+                </div>
+
+                <div class="col-12 col-md-4 mb-2 mb-md-0">
+                  <div class="box ab-box">
+                    <i class="fa fa-paper-plane mb-3"></i>
+                    <h4 class="mb-0">Unique Styles</h4>
+                    <p>
+                      <span class="digit-box mb-0" data-value="100">100</span>+
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!------------ End About Section ------------>
+
+    <!------------ Start Feature Section ------------>
+
+    <section class="container-fluid">
+      <div class="container text-center">
+        <div class="section-title m-0 p-0">
+          <h2>Why Choose Us</h2>
+          <p></p>
+        </div>
+
+        <div class="swiper feature-container">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide fe-box fe-box-1">
+              <img src="img/features/f1.png" alt="" />
+              <h5>Free Shipping</h5>
+            </div>
+            <div class="swiper-slide fe-box fe-box-2">
+              <img src="img/features/f2.png" alt="" />
+              <h5>Online Order</h5>
+            </div>
+            <div class="swiper-slide fe-box fe-box-3">
+              <img src="img/features/f3.png" alt="" />
+              <h5>Save Money</h5>
+            </div>
+            <div class="swiper-slide fe-box fe-box-4">
+              <img src="img/features/f4.png" alt="" />
+              <h5>Promotions</h5>
+            </div>
+            <div class="swiper-slide fe-box fe-box-5">
+              <img src="img/features/f5.png" alt="" />
+              <h5>Happy Sell</h5>
+            </div>
+            <div class="swiper-slide fe-box fe-box-6">
+              <img src="img/features/f6.png" alt="" />
+              <h5>24/7 Support</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!------------ End Feature Section ------------>
+
+    <!------------ Start Testinomials Section ------------>
+
+    <section class="container-fluid bg-sec mt-5">
+      <section class="container text-center pt-5">
+        <div class="section-title">
+          <h2>Testinomials</h2>
+          <p></p>
+        </div>
+        <h2 class="col-md-7">
+          We take pride in our work and our customer testimonials reflect that
+        </h2>
+
+        <div class="swiper testinomials-crousel">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                src="img/banners/person_2.jpg"
+                class="rounded-circle mb-3"
+                alt=""
+                height="100 "
+              />
+              <div>
+                <div class="product-star-rating mt-1">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p>
+                  "I was very happy with the quick delivery and nice packaging
+                  of my furniture from Interwood. The furniture was delivered
+                  within a few days of placing my order and was well-protected
+                  during shipping. I would definitely recommend Interwood to
+                  anyone looking for high-quality furniture with excellent
+                  service."
+                </p>
+                <h4 class="pt-3">IKRAM</h4>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <img
+                src="img/banners/person_4.jpg"
+                class="rounded-circle mb-3"
+                alt=""
+                height="100 "
+              />
+              <div>
+                <div class="product-star-rating mt-1">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p>
+                  "I was really impressed with the customer service from
+                  Interwood. The staff was very helpful and answered all of my
+                  questions. The delivery time was also very impressive. I would
+                  definitely recommend Interwood to anyone looking for
+                  high-quality furniture with excellent service."
+                </p>
+                <h4 class="pt-3">MALEEHA AWAIS</h4>
+              </div>
+            </div>
+
+            <div class="swiper-slide">
+              <img
+                src="img/banners/person_3.jpg"
+                class="rounded-circle mb-3"
+                alt=""
+                height="100 "
+              />
+              <div>
+                <div class="product-star-rating mt-1">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <p>
+                  "I was really impressed with the timely delivery and good
+                  packaging of my bedroom set from Interwood. The furniture was
+                  delivered on the promised date and was well-protected during
+                  shipping. I would definitely recommend Interwood to anyone
+                  looking for high-quality furniture with excellent service."
+                </p>
+                <h4 class="pt-3">SAAD</h4>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+          <div class="swiper-button-next d-lg-none d-flex"></div>
+          <div class="swiper-button-prev d-lg-none d-flex"></div>
+        </div>
+      </section>
+    </section>
+
+    <!------------ End Testinomials Section ------------>
+
+    <!------------ Section ------------>
+
+    <section class="container-fluid">
+      <section class="container text-center">
+        <div class="row text-center justify-content-evenly">
+          <div class="col-lg-4 col-md-3 mb-5">
+            <i class="fa-6x fa-solid fa-headset pb-5"></i>
+            <h4>CUSTOMER SUPPORT</h4>
+            <p>
+              If it’s furniture, we are here to serve you in the best manner
+              possible. Contact DurableFurnitures anytime: 0300 000 0000
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-3 mb-5">
+            <i class="fa-6x fa-solid fa-comment-slash pb-5"></i>
+            <h4>NO MIS-COMMITMENTS</h4>
+            <p>
+              We deliver what we display. And we display what we can deliver.
+              “No mis- commitments” is something that everyone understands at
+              DurableFurnitures!
+            </p>
+          </div>
+          <div class="col-lg-4 col-md-3">
+            <i class="fa-6x fa-solid fa-arrows-rotate pb-5"></i>
+            <h4>WIDE RANGE</h4>
+            <p>
+              We strive to provide something for everyone on DurableFurnitures
+              with regular uploads of new furniture products. Visit us
+              regularly!
+            </p>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!------------ Section ------------>
+
+    <!------------ Start Our Brands Section ------------>
+
+    <section class="container-fluid mb-5">
+      <div class="container text-center mb-5">
+        <div class="section-title">
+          <h2>Our Brands</h2>
+          <p>Explore Our Trusted Partners</p>
+        </div>
+
+        <div class="swiper feature-container align-items-center">
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide">
+              <a href="brands.html?brand=Interwood">
+                <img
+                  src="img/Logo/brand/interwood-logo.png"
+                  alt=""
+                  height="60"
+                  width="auto"
+                />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="brands.html?brand=ObsessionOutlet">
+                <img
+                  src="img/Logo/brand/obsessionlogo.png"
+                  alt=""
+                  height="60"
+                  width="auto"
+                />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="brands.html?brand=Habitt">
+                <img src="img/Logo/brand/habitt.jpeg" alt="" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="brands.html?brand=DolceVitaHome">
+                <img
+                  src="img/Logo/brand/dolcevitahome.png"
+                  alt=""
+                  class="bg-black p-2"
+              /></a>
+            </div>
+            <div class="swiper-slide">
+              <a href="brands.html?brand=IndexFurniture">
+                <img src="img/Logo/brand/Indexfurniture.png" alt="" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="brands.html?brand=UrbanGalleria"
+                ><img src="img/Logo/brand/UG.avif" alt="" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="brands.html?brand=HomeFactree"
+                ><img
+                  src="img/Logo/brand/homefactree.png"
+                  alt=""
+                  class="bg-black"
+                />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="brands.html?brand=MalikFurniture"
+                ><img src="img/Logo/brand/malik-furniture.png" alt="" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="brands.html?brand=DuraFoam"
+                ><img src="img/Logo/brand/durafoam.jpeg" alt="" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="brands.html?brand=Master"
+                ><img src="img/Logo/brand/master.avif" alt="" />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="brands.html?brand=YatasBedding"
+                ><img
+                  src="img/Logo/brand/yattasbedding.webp"
+                  alt=""
+                  height="60"
+                  width="auto"
+                />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="brands.html?brand=AlkhairFoam"
+                ><img
+                  src="img/Logo/brand/Gadoon-Logo.avif"
+                  alt=""
+                  height="60"
+                  width="auto"
+                />
+              </a>
+            </div>
+            <div class="swiper-slide">
+              <a href="brands.html?brand=DiamondSupremeFoam"
+                ><img
+                  src="img/Logo/brand/diamond_.webp"
+                  alt=""
+                  height="60"
+                  width="auto"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+    </section>
+
+    <!------------ End Our Brands Section ------------>
+
+    <!------------ Start Footer  ------------>
+
+    <footer class="ft mt-3 mt-md-0">
+      <div class="container px-5 px-lg-0 pt-5">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+            <img
+              src="img/Logo/logo-white.svg"
+              height="55px"
+              alt="Durable Furniture"
+              srcset=""
+            />
+            <p class="mb-4 ps-0 company_details">
+              Experience unmatched quality and lasting durability with our
+              expertly crafted furniture...
+            </p>
+            <div class="contact-info">
+              <ul class="list-unstyled">
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-home me-3"></i> No. 96, South City,
+                    London</a
+                  >
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-phone me-3"></i>+1 222 3333</a>
+                </li>
+                <li>
+                  <a href="#"
+                    ><i class="fa fa-envelope me-3"></i>info@example.com</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+            <h5>Customer Support</h5>
+            <ul class="link-widget p-0">
+              <li><a href="contact.html">Contact Us</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms & Conditions</a></li>
+              <li><a href="#">Product Returns</a></li>
+              <li><a href="#">Wholesale Policy</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+            <h5>Quick Links</h5>
+            <ul class="link-widget p-0">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="shop.html">Products</a></li>
+              <li><a href="compare.html">Compare Products</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-3 col-sm-6 mb-5 mb-lg-0">
+            <h5>Newsletter</h5>
+            <form action="" method="" class="ft-news">
+              <i class="far fa-envelope"></i>
+              <input type="email" placeholder="Enter your email id" required />
+              <button type="submit"><i class="fas fa-arrow-right"></i></button>
+            </form>
+            <h5>Stay Connected</h5>
+            <ul class="social-network d-flex align-items-center p-0">
+              <li>
+                <a href="https://www.facebook.com" target="_blank"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://twitter.com" target="_blank"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com" target="_blank"
+                  ><i class="fab fa-linkedin-in"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com" target="_blank"
+                  ><i class="fab fa-youtube"></i
+                ></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr class="container" />
+      <div class="container-fluid copyright-section pb-3">
+        <p>Copyright © Durable Furnitures. All Rights Reserved</p>
+      </div>
+    </footer>
+
+    <!------------ End Footer  ------------>
+  </body>
+
+  <!-- LightBox JS -->
+  <script src="src/js/lightbox-plus-jquery.min.js"></script>
+
+  <!----- Bootstrap JS ----->
+  <script src="src/bootstrap/js/bootstrap.bundle.js"></script>
+
+  <!-- JQuery -->
+  <script src="src/js/JQuery-3.7.1.js"></script>
+
+  <!-- Swipper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".feature-container", {
+      spaceBetween: 30,
+      freeMode: true,
+      speed: 1000,
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+        dynamicBullets: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        480: {
+          slidesPerView: 1,
+        },
+        768: {
+          slidesPerView: 3,
+        },
+        1200: {
+          slidesPerView: 6,
+        },
+      },
+      autoplay: {
+        delay: 1500,
+        disableOnInteraction: false,
+      },
+      mousewheel: false,
+      keyboard: true,
+    });
+  </script>
+  <script>
+    var swiper = new Swiper(".testinomials-crousel", {
+      spaceBetween: 30,
+      speed: 1000,
+      loop: true,
+
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        480: {
+          slidesPerView: 1,
+        },
+        768: {
+          slidesPerView: 2,
+        },
+        1200: {
+          slidesPerView: 3,
+        },
+      },
+      autoplay: {
+        delay: 1500,
+        disableOnInteraction: false,
+      },
+      mousewheel: false,
+      keyboard: true,
+    });
+  </script>
+
+  <!----- Custom JS ----->
+  <script src="src/js/Script.js"></script>
+</html>
